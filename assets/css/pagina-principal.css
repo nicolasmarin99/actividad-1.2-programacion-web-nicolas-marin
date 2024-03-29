@@ -1,0 +1,61 @@
+body {
+    background-image: url(../img/walpaper\ vet.jpg);
+}
+
+header {
+    background-color: lightblue;
+    max-width: 50%;
+    margin: 5rem auto;
+    border: solid;
+}
+
+header h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+}
+
+header h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.texto {
+    width: 650px;
+    margin: 0 auto;
+    color: white;
+
+
+}
+
+.integrantes {
+
+    margin-left: 320px;
+    margin-bottom: 100px;
+    color: azure;
+    background-color: rgb(232, 136, 136);
+    max-width: 45%;
+    padding: 2rem;
+    margin: auto;
+
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 20rem;
+    margin-top: 30px;
+}
+
+.enlacegato {
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.perro {
+    margin-left: 80px;
+}
