@@ -1,61 +1,70 @@
 body {
-    background-image: url(../img/walpaper\ vet.jpg);
+    background-color: dimgray;
 }
 
-header {
-    background-color: lightblue;
-    max-width: 50%;
-    margin: 5rem auto;
-    border: solid;
-}
-
-header h1 {
+.row {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding: 2rem;
+
 }
 
-header h2 {
+.fila {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.titulo1 {
+    background-color: aqua;
+    margin-left: 113px;
+    margin-right: 100px;
+    max-width: 80;
+    padding: 2rem;
+
+
+}
+
+.titulo2 {
+    background-color: yellow;
+    max-width: 80%;
+    max-height: 25%;
+    margin-left: 193px;
+    margin-right: 100px;
     padding: 2rem;
 }
 
-.texto {
-    width: 650px;
-    margin: 0 auto;
-    color: white;
-
-
-}
-
-.integrantes {
-
-    margin-left: 320px;
-    margin-bottom: 100px;
-    color: azure;
-    background-color: rgb(232, 136, 136);
-    max-width: 45%;
-    padding: 2rem;
-    margin: auto;
-
+.titulo3 {
+    background-color: orange;
+    margin-left: 193px;
+    margin-right: 100px;
+    max-height: 25%;
+    max-width: 80%;
+    padding: 4rem;
 }
 
 .contenedor {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-left: 20rem;
-    margin-top: 30px;
+    background-color: red;
+    max-height: 25%;
+    max-width: 80%;
+    margin-left: 193px;
+    margin-right: 100px;
+    padding: 2rem;
 }
 
-.enlacegato {
-    margin-top: 80px;
-    margin-left: 30px;
+.enlace-animal {
+    margin-top: 50px;
 }
 
-.perro {
-    margin-left: 80px;
+aside {
+    background-color: dimgray;
+    max-width: 20%;
+    margin-top: 50px;
+}
+
+aside li {
+    color: white;
+}
+
+aside li:hover {
+    color: blue;
 }
